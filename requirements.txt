@@ -1,0 +1,2 @@
+# Packages Binder installs for the book's notebooks
+matplotlib
