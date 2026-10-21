@@ -1,0 +1,10 @@
+How I built the website
+
+I had Claude code create a sample Myst book
+
+After repository set up run...
+
+myst init --gh-pages
+
+this will create .github/workflows/deploy.yml
+
