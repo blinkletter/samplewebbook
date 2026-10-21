@@ -8,3 +8,26 @@ myst init --gh-pages
 
 this will create .github/workflows/deploy.yml
 
+Before pushing your workflow to GitHub, you need to adjust your repository settings to allow GitHub Actions to deploy the site.
+1. Go to your repository on GitHub.
+2. Click on Settings (the gear icon).
+3. In the left sidebar, click on Pages.
+4. Under Build and deployment, locate the Source dropdown and change it from Deploy from a branch to GitHub Actions.
+5. (Required for some configurations) Go to Settings > Actions > General, scroll down to Workflow permissions, select Read and write permissions, and click Save.
+
+
+3. Push and Deploy
+
+Commit the newly generated workflow files and push them to your main branch:
+bash
+git add .
+git commit -m "chore: add GitHub Actions workflow for MyST deployment"
+git push origin main
+
+TO VIEW WEBSITE ON COMPUTER
+
+myst start
+
+run that command in the repository folder then go to 
+
+http://localhost:3000
