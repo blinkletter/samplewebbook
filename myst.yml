@@ -1,0 +1,27 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5afebcda-48b7-4189-86f4-98f44e7a3f91
+  title: A Sample Web Book
+  description: A two-chapter demonstration book built with MyST Markdown and the book-theme.
+  # TODO: replace with the real owner/reponame
+  github: blinkletter/samplewebbook
+  toc:
+    - file: index.md
+    - title: Chapter 1
+      children:
+        - file: chapter-1/page-1.md
+        - file: chapter-1/page-2.md
+        - file: chapter-1/page-3.md
+    - title: Chapter 2
+      children:
+        - file: chapter-2/page-1.md
+        - file: chapter-2/page-2.md
+        - file: chapter-2/page-3.md
+site:
+  template: book-theme
+  options:
+    style: ./custom.css
+    # keep chapter folders in URLs (/chapter-1/page-1) instead of page-1, page-1-1, ...
+    folders: true
+  baseurl: /samplewebbook/
