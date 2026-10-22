@@ -1,5 +1,6 @@
 ---
 title: A Sample Web Book
+banner: images/chapter-1-wave.png
 ---
 
 Welcome! This is a small demonstration book built with [MyST Markdown](https://mystmd.org) and the default `book-theme`.

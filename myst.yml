@@ -20,9 +20,14 @@ project:
         - file: chapter-2/page-3.md
         - file: chapter-2/calcs.ipynb
 
+      
 site:
   template: book-theme
+#  parts:
+#    banner: "📢 Draft edition. [Send feedback](mailto:you@example.com)"
   options:
     style: ./custom.css
     folders: true
+    logo_text: A Sample Web Book
+    logo: images/chapter-1-wave.png
 #    baseurl: /samplewebbook/

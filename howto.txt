@@ -31,3 +31,13 @@ myst start
 run that command in the repository folder then go to 
 
 http://localhost:3000
+
+
+################
+
+install typst
+
+brew install typst
+or
+conda install -c conda-forge typst
+
