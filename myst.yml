@@ -1,8 +1,11 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  # keywords: []
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
   id: 5afebcda-48b7-4189-86f4-98f44e7a3f91
   title: A Sample Web Book
+  authors: Barry Linkletter
   description: A two-chapter demonstration book built with MyST Markdown and the book-theme.
   github: blinkletter/samplewebbook
   binder: https://mybinder.org/v2/gh/blinkletter/samplewebbook/main
